@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "manager-web-part-client-side-solution",
+    "id": "9081a5aa-0d94-48e5-8b14-12b240041172",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/manager-web-part.sppkg"
+  }
+}

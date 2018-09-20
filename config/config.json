@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/mandelManagerWebPart/MandelManagerWebPartWebPart.js",
+      "manifest": "./src/webparts/mandelManagerWebPart/MandelManagerWebPartWebPart.manifest.json",
+      "outputPath": "./dist/mandel-manager-web-part-web-part.js"
+    }
+  ],
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-2.2.4.min.js",
+    "moment": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js",
+    "fullcalendar": "https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js",
+    "bootstrap":"node_modules/bootstrap/dist/js/bootstrap.min.js",
+    "fullcalendar-scheduller":"node_modules/fullcalendar-scheduller/dist/scheduler.min.js"
+  },
+  "localizedResources": {
+    "MandelManagerWebPartWebPartStrings": "webparts/mandelManagerWebPart/loc/{locale}.js"
+  }
+}
